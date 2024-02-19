@@ -4,7 +4,7 @@ let minItem=document.querySelector("#min");
 let secItem=document.querySelector("#sec");
 
 let countdown=()=>{
-    let futureDate=new Date("1 jan 2023");
+    let futureDate=new Date("1 jan 2025");
     let currDate=new Date();
     let myDate=futureDate-currDate;
     // console.log(myDate);
